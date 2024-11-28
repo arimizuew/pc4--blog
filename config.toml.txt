@@ -1,9 +1,6 @@
 [theme]
-
-primaryColor="Black"
-backgroundColor="Orange"
-
-secondaryBackgroundColor="Yellow"
-
-textColor="Blue"
-font="Comic Sans"
+primaryColor="57ada9"
+backgroundColor="#76e4dd"
+secondaryBackgroundColor="#45c7d4"
+textColor="101212"
+font="Sans Serif"
