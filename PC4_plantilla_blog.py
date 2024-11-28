@@ -137,11 +137,12 @@ st.markdown("<h2 style='text-align: center;'>Explicación de un tema de las clas
 # Agregamos un video a la aplicación web ( menor a 20 MB)
 st.video("video1578897823.mp4")
 # st.video("ppc-2024-1.mp4"): Esta línea está agregando un video a la aplicación web.
+st.video("video1977022972.mp4")
 
 
 # Agregamos un enlace a la página web donde está el video.
-enlace = f'<a href="https://drive.google.com/file/d/15knTz1nLSSjT-XcnKI-Q8WhL1MX4c15d/view?usp=sharing" target="_blank"><button>Has click en el enlace></a>'
-st.markdown(enlace, unsafe_allow_html=True)
+# enlace = f'<a href="https://drive.google.com/file/d/15knTz1nLSSjT-XcnKI-Q8WhL1MX4c15d/view?usp=sharing" target="_blank"><button>Has click en el enlace</a>'
+# st.markdown(enlace, unsafe_allow_html=True)
 # f'<a href="URL" target="_blank"><button>Nombre</button></a>':
 # La etiqueta <a> se utiliza para crear un enlace en HTML.
 # El atributo href se utiliza para especificar la URL de destino del enlace.
