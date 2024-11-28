@@ -185,6 +185,10 @@ elif grafico_seleccionado == 'Segundo Mapa PC_3':
     sidebar.markdown("<div style='text-align: justify'>Mapa Mundi 2.</div>", unsafe_allow_html=True)
     sidebar.image("mapita_2_pc3.png", caption='Segundo mapa de lenguas', width=500)
     pass
+elif grafico_seleccionado == 'Mapa de palabras de discurso de Dina':
+    sidebar.markdown("<div style='text-align: justify'>Wordcloud.</div>", unsafe_allow_html=True)
+    sidebar.image("palabras_sueltas.png", caption='Wordcloud', width=500)
+    pass
 
 # if grafico_seleccionado == 'Gráfico de Macroareas': Esta línea verifica si la opción seleccionada es 'Gráfico de Macroareas'.
 # Si es así, se ejecuta el código dentro del bloque if.
