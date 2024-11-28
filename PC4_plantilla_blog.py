@@ -1,3 +1,4 @@
+
 # Este código sirve para instalar Streamlit en tu computadora y hacer un primer programa en Streamlit.
 # Pero se ejecuta en la terminal de tu computadora, no en Jupyter Notebook.
 
@@ -40,7 +41,7 @@ sidebar = st.sidebar
 # Pero, a diferencia de st.markdown, el texto estará alineado a la izquierda y no podrás cambiar el color del texto.
 
 # La función st.markdown permite centrar y agrandar la letra del título de la web en Streamlit.
-st.markdown("<h1 style='text-align: center;'>Blog Final Semestre 2024-02</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center;'>Blog final 2024-2</h1>", unsafe_allow_html=True)
 
 # <h1 style='text-align: center;'>Nombre de tu blog</h1>: Esto es una cadena de código HTML. 
 # La etiqueta <h1> se utiliza para el encabezado principal de una página web, y 
@@ -60,7 +61,7 @@ col1, col2 = st.columns(2)
 # Las columnas creadas se asignan a las variables col1 y col2.
 
 # En la primera columna colocamos la imagen
-col1.image("IMG_8167.PNG", caption='Aquí puedes escribir una tiqueta debajo de la imagen', width=300)
+col1.image("IMG_8167.png", caption='Foto Personal', width=300)
 
 # col1.image("ellie.png", caption='Ellie', width=300): Esta línea está colocando una imagen en la primera columna (col1). 
 # La función image toma como primer argumento la ruta de la imagen que se va a mostrar. 
@@ -73,8 +74,7 @@ col1.image("IMG_8167.PNG", caption='Aquí puedes escribir una tiqueta debajo de 
 # ¿Qué te gustaría hacer en el futuro?, ¿Qué te gusta hacer en tu tiempo libre?
 
 texto = """
-Mi nombre es Ari Salas y estudio la carrera de Comunicación Audiovisual en la Pontificia Universidad Católica del Perú. Respecto a mi carrera, me gustaría ser capaz de comunicar efectivamente mis historias, ya que me especializo más en el área creativa. Quisiera que las audiencias pudieran sentirse identificadas con dichas historias. Considero que tener nociones de programación básicas es necesario para la promoción de dichos productos audiovisuales. En mi tiempo libre, me gusta mucho dibujar, por lo que me gustaría hacer un proyecto animado alguna vez. 
-
+Mi nombre es Ari Salas y estudio la carrera de Comunicación Audiovisual en la Pontificia Universidad Católica del Perú. Respecto a mi carrera, me gustaría ser capaz de comunicar efectivamente mis historias, ya que me especializo más en el área creativa. Quisiera que las audiencias pudieran sentirse identificadas con dichas historias. Considero que tener nociones de programación básicas es necesario para la promoción de dichos productos audiovisuales. En mi tiempo libre, me gusta mucho dibujar, por lo que me gustaría hacer un proyecto animado alguna vez.
 """
 
 # Las comillas triples (""") en Python se utilizan para definir cadenas multilínea.
@@ -111,7 +111,6 @@ st.markdown("<h2 style='text-align: center;'>Mi experiencia aprendiendo a progra
 # Agregar un  texto para la respuesta
 texto_2 = """
 Al principio las funciones que utilizamos eran sencillas y eso hizo que el proceso de aprendizaje fuera más sencillo. Sin embargo, cometí errores puntuales en las prácticas ya que una de las dificultades para aprender a programar es que todo debe ser escrito de forma precisa y puesto de manera estratégica. Con el tiempo el proceso de programar se complejizó, pero considero que no me ha ido tan mal. Pienso que si hubiera notado mejor esos detalles que realmente sirven a la hora de escribir un código, los resultados obtenidos hubieran sido más óptimos. Programar me ha enseñado a conocer todo este mundo detrás de los programas que usamos siempre. Tener la capacidad de operarlos desde dentro es entretenido e interesante. Tener la habilidad de programar es un “plus” para el mundo tecnológico del que estamos rodeados actualmente, pues es una habilidad que necesitamos los futuros comunicadores. Por mi parte, voy a especializarme más en esta área puesto que considero que es una práctica que ayuda a solucionar problemas de forma efectiva. Esta es una complicación personal mía porque siempre he tenido el problema de fijarme bien en los detalles por lo que esto se refleja claramente en este campo. Lo que sí me gusta es que uno se siente capaz de crear todo tipo de códigos y ver cómo se construyen las cosas desde cero solo usando lenguaje informático. En el curso de Pensamiento Computacional me he especializado en Python y quisiera mejorar mis trabajos de programación en el futuro para tener la capacidad de lanzar páginas webs funcionales que pudieran tener una utilidad en el mercado actual. Considero que tener nociones de programación básicas es necesario para la promoción de dichos productos audiovisuales que quisiera realizar a futuro. En mi tiempo libre, me gusta mucho dibujar, por lo que me gustaría hacer un proyecto animado alguna vez. 
-
 """
 
 # Mostramos el texto
@@ -141,7 +140,7 @@ st.video("video1578897823.mp4")
 
 
 # Agregamos un enlace a la página web donde está el video.
-enlace = f'<a href="https://drive.google.com/file/d/1y5zFUZ_tnaWSIw5HIc5b41uYXRUyj5fo/view?usp=sharing" target="_blank"><button>Nombre creativo para el botón</button></a>'
+enlace = f'<a href="https://drive.google.com/file/d/15knTz1nLSSjT-XcnKI-Q8WhL1MX4c15d/view?usp=sharing" target="_blank"><button>Has click en el enlace></a>'
 st.markdown(enlace, unsafe_allow_html=True)
 # f'<a href="URL" target="_blank"><button>Nombre</button></a>':
 # La etiqueta <a> se utiliza para crear un enlace en HTML.
@@ -153,7 +152,7 @@ st.markdown(enlace, unsafe_allow_html=True)
 
 
 # Agregamos un subtítulo en la barra lateral
-sidebar.markdown("<h1 style='text-align: center;'>Gráficos</h1>", unsafe_allow_html=True)
+sidebar.markdown("<h1 style='text-align: center;'>Gráficos hechos en el semestre", unsafe_allow_html=True)
 
 # <h1 style='text-align: center;'>Los análisis de Ellie</h1>: Esta es una cadena de código HTML.
 # La etiqueta <h1> se utiliza para el encabezado principal de una página web.
@@ -161,7 +160,7 @@ sidebar.markdown("<h1 style='text-align: center;'>Gráficos</h1>", unsafe_allow_
 # El texto dentro de las etiquetas <h1> ("Los análisis de Ellie") es el contenido del encabezado.
 
 # Creamos una lista de gráficos
-graficos = ['Lenguas aisladas', 'Familias lingüísticas', 'Mapa de las lenguas sudamericanas']
+graficos = ['Gráfico de barras sobre Áreas de interés favoritas de los alumnos de Comunicación Audiovisual', 'Primer Mapa PC_3', 'Segundo Mapa PC_3','Mapa de palabras de discurso de Dina']
 
 # Creamos un cuadro de selección en la barra lateral
 grafico_seleccionado = sidebar.selectbox('Selecciona un gráfico', graficos)
@@ -174,17 +173,17 @@ grafico_seleccionado = sidebar.selectbox('Selecciona un gráfico', graficos)
 # La función selectbox se utiliza para crear un cuadro de selección en la barra lateral.
 
 # Mostramos el gráfico seleccionado
-if grafico_seleccionado == 'Lenguas aisladas':
-    sidebar.markdown("<div style='text-align: justify; font-size: 20px;'>Aquí debe ir una breve interpretación de tu gráfico</div>", unsafe_allow_html=True)
-    sidebar.image("aisladas_base_datos.png", caption='Lenguas aisladas', width=500)
+if grafico_seleccionado == 'Gráfico de barras sobre Áreas de interés favoritas de los alumnos de Comunicación Audiovisual':
+    sidebar.markdown("<div style='text-align: justify; font-size: 20px;'>Gráfico de barras horizontal en color verde</div>", unsafe_allow_html=True)
+    sidebar.image("grafico_de_barras.png", caption='Áreas de interés favoritas de los alumnos de Comunicación Audiovisual', width=500)
     pass
-elif grafico_seleccionado == 'Familias lingüísticas':
-    sidebar.markdown("<div style='text-align: justify'>Texto para la opción 2.</div>", unsafe_allow_html=True)
-    sidebar.image("lengua_familia_GB.png", caption='Familias lingüísticas', width=500)
+elif grafico_seleccionado == 'Primer Mapa PC_3':
+    sidebar.markdown("<div style='text-align: justify'>Mapa Mundi 1.</div>", unsafe_allow_html=True)
+    sidebar.image("mapita_pc3.png", caption='Mapa de lenguas', width=500)
     pass
-elif grafico_seleccionado == 'Mapa de las lenguas sudamericanas':
-    sidebar.markdown("<div style='text-align: justify'>Texto para la opción 3.</div>", unsafe_allow_html=True)
-    sidebar.image("mapa_familias_aisladas_S.jpg", caption='Mapa de las lenguas sudamericanas', width=500)
+elif grafico_seleccionado == 'Segundo Mapa PC_3':
+    sidebar.markdown("<div style='text-align: justify'>Mapa Mundi 2.</div>", unsafe_allow_html=True)
+    sidebar.image("mapita_2_pc3.png", caption='Segundo mapa de lenguas', width=500)
     pass
 
 # if grafico_seleccionado == 'Gráfico de Macroareas': Esta línea verifica si la opción seleccionada es 'Gráfico de Macroareas'.
