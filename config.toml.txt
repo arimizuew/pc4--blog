@@ -1,0 +1,9 @@
+[theme]
+
+primaryColor="Black"
+backgroundColor="Orange"
+
+secondaryBackgroundColor="Yellow"
+
+textColor="Blue"
+font="Comic Sans"
